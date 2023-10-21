@@ -7,6 +7,13 @@
     <title>Udil Ganteng</title>
 
     @include('layout.head')
+    <style>
+        .card {
+            background-color: rgb(26, 25, 31);
+            color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
 
     @stack('stylesheet')
 
@@ -26,44 +33,37 @@
                 <div class="col-lg-4 col-md-6 col-sm-8">
                     <div class="product__sidebar">
                         <div class="product__sidebar__view">
-                            <div class="section-title">
+                            <!-- <div class="section-title">
                                 <h5>Top Views</h5>
-                            </div>
-                            <ul class="filter__controls">
-                                <li class="active" data-filter="*">Day</li>
-                                <li data-filter=".week">Week</li>
-                                <li data-filter=".month">Month</li>
-                                <li data-filter=".years">Years</li>
-                            </ul>
-                            <div class="filter__gallery">
-                                <div class="product__sidebar__view__item set-bg mix day years" data-setbg="img/sidebar/tv-1.jpg">
-                                    <div class="ep">18 / ?</div>
-                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    <h5><a href="#">Boruto: Naruto next generations</a></h5>
-                                </div>
-                                <div class="product__sidebar__view__item set-bg mix month week" data-setbg="img/sidebar/tv-2.jpg">
-                                    <div class="ep">18 / ?</div>
-                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                </div>
-                                <div class="product__sidebar__view__item set-bg mix week years" data-setbg="img/sidebar/tv-3.jpg">
-                                    <div class="ep">18 / ?</div>
-                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    <h5><a href="#">Sword art online alicization war of underworld</a></h5>
-                                </div>
-                                <div class="product__sidebar__view__item set-bg mix years month" data-setbg="img/sidebar/tv-4.jpg">
-                                    <div class="ep">18 / ?</div>
-                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    <h5><a href="#">Fate/stay night: Heaven's Feel I. presage flower</a></h5>
-                                </div>
-                                <div class="product__sidebar__view__item set-bg mix day" data-setbg="img/sidebar/tv-5.jpg">
-                                    <div class="ep">18 / ?</div>
-                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    <h5><a href="#">Fate stay night unlimited blade works</a></h5>
+                            </div> -->
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 style="color: red;">Ketentuan Joki Rank</h5>
+                                    </br>
+                                    <h6 style="color: #fff;">Orderan Joki Di Cek Pukul 09.00 - 21.00 WIB</h6>
+                                    </br>
+                                    <h6 style="color: red;">(Jika Order Melewati Batas Pengecekan Orderan , Maka Orderan Di Cek di Hari Berikutnya)</h6>
+                                    </br>
+                                    <p style="color: #fff;">Cara Order : </p>
+                                    <ol style=" margin-left: 30px;">
+                                        <li>Lengkapi Data Joki Dengan Teliti!</li>
+                                        <li>Pilih Jenis Joki Rank</li>
+                                        <li>Masukkan Jumlah Order</li>
+                                        <li>Pilih Metode Pembayaran</li>
+                                        <li>Masukkan nomor WhatsApp yg benar!</li>
+                                        <li>Klik Beli lakukan Pembayaran</li>
+                                        <li>Orderan Joki akan segera di proses setelah pembayaran berhasil</li>
+                                    </ol>
+                                    </br>
+                                    <h6 style="color: red;">Estimasi Proses Jasa Joki Kita Usahakan Secepatnya</h6>
+                                    </br>
+                                    <h6 style="color: red;">Minimal 12 Jam - Maximal 2x24 Jam</h6>
+                                    </br>
+                                    <h6 style="color: red;">**Catatan Penting!!! : Sebelum Order Mohon Baca Informasi (Pop Up)</h6>
                                 </div>
                             </div>
                         </div>
-                        <div class="product__sidebar__comment">
+                        <!-- <div class="product__sidebar__comment">
                             <div class="section-title">
                                 <h5>New Comment</h5>
                             </div>
@@ -119,12 +119,78 @@
                                     <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="product__page__content">
-                        <div class="product__page__title">
+                        <!-- <div class="product__page__title">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-8 col-sm-6">
+                                    <div class="section-title">
+                                        <h5>Data Diri</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="card" style="padding: 15px;">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-3">
+                                        <label style="color:white">Email / No Hp</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan email / no hp">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-3">
+                                        <label style="color:white">Password</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan password">
+                                    </div>
+                                </div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-3">
+                                        <label style="color:white">Requues Hero</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan hero yang diinginkan">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-3">
+                                        <label style="color:white">Catatan</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan catatan">
+                                    </div>
+                                </div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-3">
+                                        <label style="color:white">User Id & Nickname</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contoh : 10101191919-Udil">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-3">
+                                        <label for="Login Via"></label>
+                                        <select name="Login Via" id="Login Via" class="form-select">
+                                            <option value="-">Login Via</option>
+                                            <option value="moonton">
+                                                Moonton (Rekomendasi)</option>
+                                            <option value="vk">
+                                                VK (Rekomendasi)</option>
+                                            <option value="tiktok">
+                                                TikTok</option>
+                                            <option value="facebook">
+                                                Facebook</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </br>
+                        <!-- <div class="product__page__title">
                             <div class="row">
                                 <div class="col-lg-8 col-md-8 col-sm-6">
                                     <div class="section-title">
@@ -132,58 +198,92 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-1.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Active</li>
-                                            <li>Movie</li>
-                                        </ul>
-                                        <h5><a href="#">Sen to Chihiro no Kamikakushi</a></h5>
-                                    </div>
+                            <div class="card" style="width: 100%; margin: 0; padding: 15px;">
+                                <div class="card-header">
+                                    <h5 style="color: #fff;">Pilih Joki Rank</h5>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-2.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Active</li>
-                                            <li>Movie</li>
-                                        </ul>
-                                        <h5><a href="#">Kizumonogatari III: Reiket su-hen</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-4.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <ul>
-                                            <li>Active</li>
-                                            <li>Movie</li>
-                                        </ul>
-                                        <h5><a href="#">Rurouni Kenshin: Meiji Kenkaku Romantan</a></h5>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <!-- <label for="promo_code">Masukan kode voucher</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="promo_code" name="promo_code" placeholder="Kode Voucher" aria-label="Kode Voucher" aria-describedby="promo_code">
+                                            <button class="btn btn-secondary btn-ordernow" style="box-shadow: 0 .5rem 1rem rgba(255,255,255,.152)!important;" type="button" id="promo_code" onclick="if (!window.__cfRLUnblockHandlers) return false; checkPromo()">Apply Voucher</button>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
                         </div>
+    </br>
+                        <div class="row">
+                            <div class="card" style="width: 100%; margin: 0; padding: 15px;">
+                                <div class="card-header">
+                                    <h5 style="color: #fff;">Gunakan Voucher</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <label for="promo_code">Masukan kode voucher</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="promo_code" name="promo_code" placeholder="Kode Voucher" aria-label="Kode Voucher" aria-describedby="promo_code">
+                                            <button class="btn btn-secondary btn-ordernow" style="box-shadow: 0 .5rem 1rem rgba(255,255,255,.152)!important;" type="button" id="promo_code" onclick="if (!window.__cfRLUnblockHandlers) return false; checkPromo()">Apply Voucher</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </br>
+                        <div class="row">
+                            <div class="card" style="width: 100%; padding: 15px;">
+                                <div class="card-header">
+                                    <h5 style="color: #fff;">Masukan Jumlah Order</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <label for="promo_code">Jumlah Order</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="promo_code" name="promo_code" placeholder="Kode Voucher" aria-label="Kode Voucher" aria-describedby="promo_code">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </br>
+                        <div class="row">
+                            <div class="card" style="width: 100%; padding: 15px;">
+                                <div class="card-header">
+                                    <h5 style="color: #fff;">Pilih Metode Pembayaran</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <!-- <label for="promo_code">Jumlah Order</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="promo_code" name="promo_code" placeholder="Kode Voucher" aria-label="Kode Voucher" aria-describedby="promo_code">
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </br>
+                        <div class="row">
+                            <div class="card" style="width: 100%; padding: 15px;">
+                                <div class="card-header">
+                                    <h5 style="color: #fff;">Order Joki</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <label for="promo_code">No Whastsapp</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="promo_code" name="promo_code" placeholder="628937282" aria-label="Kode Voucher" aria-describedby="promo_code">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
+
                 </div>
 
             </div>

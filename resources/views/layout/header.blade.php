@@ -1,10 +1,10 @@
-<div class="header-area">
+<div class="header-area" style="background:  rgb(26, 25, 31);">
     <div class="container">
         <div class="row">
             <div class="col-lg-2">
                 <div class="header__logo">
                     <a href="./index.html">
-                        <img src="img/logo.png" alt="">
+                        <!-- <img src="img/logo.png" alt=""> -->
                     </a>
                 </div>
             </div>
